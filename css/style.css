@@ -1,0 +1,674 @@
+/* 
+#9356DC couleur Primaire 
+#FF79DA couleur Secondaire
+#99E2D0 couleur térrtiaire 
+*/
+
+/*animation ouverture page*/
+.spinner_chargement {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background:white;
+  }
+  
+  .spinner {
+    border-left: 5px solid #ffffff;
+    border-right: 5px solid #FF79DA;
+    border-top: 5px solid #9456dc;
+    border-bottom: 5px solid #99E2D0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    animation: spinner linear 1s infinite;
+    margin: auto;
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .fin {
+    animation: sortie 35s ease-in both;
+  }
+  
+  @keyframes sortie {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      background: transparent;
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(0);
+      background: transparent;
+    }
+  }
+/*Fin animation ouverture page */  
+
+
+header
+{
+    display: flex;
+    justify-content: center;
+}
+
+h1, h6 
+{
+    font-family: "Shrikhand";
+}
+  
+body, html 
+{
+    font-family: "Roboto";
+    margin: 0;
+}
+main img 
+{
+    object-fit: cover;
+    height: 180px;
+}
+.fas.fa-map-marker-alt
+{
+    margin-left: 35%;
+    font-size: 20px;
+    width: fit-content;
+}
+.localisation
+{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #eaeaea;
+    /* justify-content:space-between; */
+    box-shadow: inset 0px 8px 12px -15px black;
+    /* padding-right: 30%; */
+    padding-right: 11%;
+}
+.localisation p 
+{
+    margin-left: 1%;
+}
+.a_propos
+{
+    background-color: #f2f2f2;
+    padding: 6px 34px 14px;
+    display: grid;
+}
+input
+{
+    background: none;
+
+}
+.btn
+{
+    margin-left: 1rem;
+    font-size: 15px;
+    color: #f2f2f2;
+    padding: 18px 22px;
+    border-radius: 26px;
+    background: linear-gradient(#ff79da 0%, #9356dc 100%);
+    transition: all 0.5s ease-out;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+.btn:hover, .btn:active
+{
+    color: #6b6b6b;
+    background: #ff79da;
+}
+
+
+.a_propos h2,.a_propos p
+{
+    text-align: center;
+}
+
+.liste_fonctionnement
+{
+    padding: 0;
+}
+.fonction
+{
+    margin-left: 8%;
+    font-size: 13px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-right: 3%;
+}
+.choisir, .deguster
+{
+    margin-left: -13%;
+}
+.composer
+{
+    margin-left: -14%;
+}
+.choix
+{
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+    height: 60px;
+    background: #F6F6F6;
+    box-shadow: 0 5px 10px 0 white;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    margin-bottom: 24px;
+}
+.fa-mobile-alt
+{
+    margin-left: -35%;
+    color: grey;
+}
+.fa-list-ul
+{
+    margin-left: -29%;
+    color: grey;
+}
+.fa-store
+{
+    margin-left: -29%;
+    color: grey;
+}
+
+.choisir , .composer , .deguster
+{
+    width: 8%;
+    height: 38%;
+    border-radius: 50%;
+    background-color: #9356DC;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.choix-menu 
+{
+    color: black;
+    margin-right: 51px;
+}
+.choix-menu2
+{
+    margin-right: 38px;
+}
+.rond 
+{
+    margin-left: -14%;
+}
+
+.choix:hover 
+{
+  cursor: pointer;
+  transition-duration: 0.25s;
+  color: #9456dc;
+  background-color: #9256dc25;
+}
+.choix:hover i
+{
+    color: #9356DC;
+}
+
+
+li 
+{
+    list-style-type: none;
+}
+.titre_restaurant
+{
+    width: 92%;
+    margin-left: 1rem;
+}
+.all_restaurant
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img
+{
+    width: 100%;
+    border-radius: 15px 15px 0 0 ;
+}
+.all_restaurant, .restaurant 
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.restaurant
+{
+    background-color:#F6F6F6 ;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+article
+{
+    width:94%;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0;
+    height: 250px;
+    margin-left: 4%;
+    margin-top: 13%;
+}
+.Nouveau_palette
+{
+    position: absolute;
+    display: flex;
+    color: #008766;
+    font-weight: bold;
+    background-color: #99E2D0;
+    margin-top: -135%;
+    margin-left: 70%;
+    width: 22%;
+    height: 4%;
+    align-items: center;
+    justify-content: center;
+}
+.Nouveau_note
+{
+    position: absolute;
+    display: flex;
+    color: #008766;
+    font-weight: bold;
+    background-color: #99E2D0;
+    margin-left: 71%;
+    margin-top: 40%;
+    width: 22%;
+    height: 4%;
+    align-items: center;
+    justify-content: center;
+}
+.aime, .caption 
+{
+    position: absolute;
+}
+.caption
+{
+    line-height: 3px;
+    margin-left: 5%;
+    margin-top: -2%;
+}
+.aime
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 80%;
+    margin-top: 8%;
+    font-size:24px ;
+    
+}
+.coeur
+{
+    font-size: 25px;
+    color: #f2f2f2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: grey;
+}
+.coeur:hover
+{
+  cursor: pointer;
+  background: linear-gradient(to bottom left, #9356dc, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0;
+}
+footer h3
+{
+    font-family: "Shrikhand";
+    margin-left: 12%;
+}
+
+li
+{
+    display: flex;
+}
+.icone 
+{
+    width: 10%;
+}
+footer 
+{
+    background:#353535;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto", sans-serif;
+    width: 101%;
+    margin-top: 19%;
+}
+ul
+{
+    line-height: 25px;
+}
+
+/* ---------------------------- Tablettes ---------------------------- */
+@media screen and (min-width: 700px) and (max-width: 1024px) 
+{
+
+    .a_propos
+    {
+        padding: 5px 13rem 14px;
+    }
+    
+    .localisation
+    {
+        padding-right:41%;
+    }
+    .fas.fa-map-marker-alt
+    {
+        margin-left: 71%;
+    }
+    .btn
+    {
+        margin-left: 6%;
+        margin-top: 3%;
+    }
+    .fonction
+    {
+        margin-left: 30%;
+        width: 44%;
+    }
+    .fonction h2
+    {
+        margin-left: 26%;
+    }
+    .titre_restaurant h3
+    {
+        margin-left: 39%;
+    }
+    .all_restaurant
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 600px;
+    }
+    .restaurant
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aime
+    {
+        margin-top: 2%;
+        margin-left: 28%;
+    }
+    .all_restaurant article
+    {
+        width: 40%;
+        margin-top: 2%;
+    }
+    .Nouveau_note 
+    {
+        margin-top: -21%;
+        margin-left: 24%;
+        width: 16%;
+    }
+    .Nouveau_palette 
+    {
+        margin-top: -21%;
+        margin-left: 24%;
+        width: 16%;
+    }
+    ul
+    {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    }
+    footer
+    {
+        margin-top: 0;
+        display: block;
+        text-align: center;
+        height: 114px;
+        width: 100%;
+    }
+    footer ul 
+    {
+        justify-content: space-around;
+        flex-direction: initial;
+
+    }
+  .icone
+  {
+    width: auto;
+  }
+  li 
+  {
+    width: 14%;
+  }
+    .liste_fonctionnement
+    {
+    display: flex;
+    width: 91%;
+    }
+    .caption
+    {
+        margin-top: -1%;
+    }
+    .choisir 
+    {
+        align-items: center;
+    }
+    .composer
+    {
+        align-items: center;
+    }
+     .deguster
+    {
+        align-items: center;
+    }
+    .bloc 
+    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    }
+    footer h3 
+    {
+        margin: 0;
+        width: 100%;
+        height: 25px;
+    }
+  }
+
+  /* ---------------------------- Ordinateur ---------------------------- */
+
+
+  @media screen and (min-width: 1025px)
+{
+
+    header h1
+    {
+        font-size: 3rem;
+    }
+    .localisation
+    {
+        justify-content: center;
+        font-size: xx-large;
+        width: 89%;
+        margin: 0;
+    }
+    .fas.fa-map-marker-alt
+    {
+        font-size: xx-large;
+        margin-left: 12%;
+    }
+    .a_propos
+    {
+        font-size: xx-large;
+    }
+    .a_propos a 
+    {
+        font-size: 2rem;
+    }
+    .icone
+    {
+        width: 10%;
+        display: flex;
+        justify-content: right;
+    }
+    .btn
+    {
+        width: 37%;
+        margin-left: 31%;
+    }
+    .fonction h2
+    {
+        display: flex;
+        justify-content: center;
+        margin-right: 7%;
+        font-size: xx-large;
+    }
+    .all_restaurant
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-left: -5%;
+        height: 880px;
+    }
+    .titre_restaurant
+    {
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+        margin-right: 0;
+        width: 99%;
+    }
+    .restaurant
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .caption
+    {
+        margin-top: -12px;
+        font-size: x-large;
+    }
+    .aime
+    {
+        margin-top: 1%;
+        margin-left: 28%;
+    }
+    main img 
+    {
+        height: 260px;
+    }
+    .all_restaurant article
+    {
+        width: 32%;
+        margin-top: 2%;
+        height: 345px;
+    }
+    .Nouveau_note 
+    {
+        margin-top: -12%;
+        margin-left: 21%;
+        width: 11%;
+    }
+    .Nouveau_palette 
+    {
+        margin-top: -12%;
+        margin-left: 21%;
+        width: 11%;
+    }
+    footer
+    {
+        margin-top: 0;
+        display: block;
+    }
+    .liste_fonctionnement
+    {
+        display: flex;
+        width: 100%;
+    }
+    .choix
+    {
+        width: 33%;
+        margin-left: 2%;
+        align-items: center;
+    }
+    .choisir 
+    {
+        width: 8%;
+        height: 66%;
+        align-items: center;
+        font-size: x-large;
+    }
+    .composer
+    {
+        width: 8%;
+        height: 66%;
+        align-items: center;
+        font-size: x-large;
+    }
+     .deguster
+    {
+        width: 8%;
+        height: 66%;
+        align-items: center;
+        font-size: x-large;
+    }
+    .choix-menu2, .choix-menu, .boutton_nouveau, .fa-list-ul, .fa-store, .fas.fa-mobile-alt
+    {
+        font-size: x-large;
+    }
+    footer
+    {
+        display: block;
+        text-align: center;
+        font-size: x-large;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+    footer ul
+    {
+        display: flex;
+        align-items: center;
+        font-size: x-large;
+        justify-content: space-around;
+    }
+    .bloc 
+    {
+    display: flex;
+    align-items: center;
+    width: 102%;
+    }
+    footer h3
+    {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    a
+    {
+        color: white;
+        width: 54%;
+    }
+  }
+ 
