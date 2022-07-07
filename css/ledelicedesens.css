@@ -295,7 +295,7 @@ animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
-
+/* Fin ANIMATION SLIDE */
  
 .menu__button {
   background: #f2f2f2;
@@ -524,4 +524,7 @@ ul
 {
   font-size: 25px;
 }
+/*.price{
+  margin-right: 3rem;
+}*/
  }
