@@ -211,6 +211,7 @@ h1{
 
 
 /* ANIMATION SLIDE */
+
 @keyframes texte_slide{0%
   {
 transform: translateY(10px);
