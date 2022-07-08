@@ -177,7 +177,7 @@ h1{
   display: flex;
   align-items: flex-end;
   font-family: "Roboto-Medium", Arial ;
-  padding: 5px;
+  padding: 5px 10px 2px 5px;
   margin-left: 2rem;
 }
 
@@ -558,10 +558,10 @@ ul
 {
   font-size: 25px;
 }
-.price
+/*.price
 {
   margin-left: 10rem;
-}
+}*/
   .menu_1 h2 
   {
   margin: auto;
