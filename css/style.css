@@ -590,15 +590,16 @@ ul
     .Nouveau_note 
     {
         margin-top: -12%;
-        margin-left: 21%;
+        margin-left: 20%;
         width: 11%;
     }
     .Nouveau_palette 
     {
         margin-top: -12%;
-        margin-left: 21%;
+        margin-left: 20%;
         width: 11%;
-    }
+        margin-right: 20%;
+    }*/
     footer
     {
         margin-top: 0;
