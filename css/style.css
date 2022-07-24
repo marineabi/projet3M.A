@@ -205,7 +205,7 @@ input
 {
     margin-right: 38px;
 }
-.rond 
+.choisir
 {
     margin-left: -14%;
 }
@@ -623,28 +623,34 @@ ul
     }
     .choix
     {
-        width: 33%;
+        width: 60%;
         margin-left: 2%;
+        margin-right: 50px;
         align-items: center;
+    }
+
     }
     .choisir 
     {
-        width: 8%;
-        height: 66%;
+        width: 10%;
+        height: 60%;
         align-items: center;
         font-size: x-large;
+        margin-right: 2px;
+     
+
     }
     .composer
     {
-        width: 8%;
-        height: 66%;
+        width: 10%;
+        height: 60%;
         align-items: center;
         font-size: x-large;
     }
      .deguster
     {
-        width: 8%;
-        height: 66%;
+        width: 10%;
+        height: 60%;
         align-items: center;
         font-size: x-large;
     }
