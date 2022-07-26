@@ -307,7 +307,7 @@ article
     margin-left: 5%;
     margin-top: -2%;
 }
-.aime
+/*.aime
 {
     display: flex;
     justify-content: center;
@@ -330,7 +330,7 @@ article
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0;
-}*/
+}
 
 .coeur{
     transition: all 0.3s linear 0s;
@@ -344,6 +344,106 @@ article
  
 .aime:hover .coeur{
     height: 100%;
+}*/
+
+
+.fa-heart {
+    /*position: relative;*/
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: #f2f2f2;
+   -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: grey;
+  }
+
+.fa-heart:hover{
+
+    animation: heart 1s 0s forwards;
+  
+}
+
+@keyframes heart {
+0% {
+  background: linear-gradient(0deg, #FF79DA, #9356DC 0%, white 0%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+10% {
+  background: linear-gradient(0deg, #FF79DA, #9356DC 10%, white 10%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+20% {
+  background: linear-gradient(0deg, #FF79DA, #9356DC 20%, white 20%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+30% {
+  background: linear-gradient(0deg, #FF79DA, #9356DC 30%, white 30%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+40% {
+  background: linear-gradient(0deg, #FF79DA, #9356DC 40%, white 40%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+50% {
+  background: linear-gradient(0deg, #FF79DA, #9356DC 50%, white 50%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+60% {
+  background: linear-gradient(0deg, #FF79DA, #9356DC 60%, white 60%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+70% {
+  background: linear-gradient(0deg, #FF79DA, #9356DC 70%, white 70%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+80% {
+  background: linear-gradient(0deg, #FF79DA, #9356DC 80%, white 80%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+90% {
+  background: linear-gradient(0deg, #FF79DA, #9356DC 90%, white 90%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+100% {
+  background: linear-gradient(0deg, #FF79DA, #9356DC 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+}
+
+.fa-heart {
+position: relative;
+font-size: 1.5rem;
+background-color: transparent;
+border: none;
+margin-right: 10px;
+padding: 0;
+margin-bottom: 30px;
 }
 
 footer h3
