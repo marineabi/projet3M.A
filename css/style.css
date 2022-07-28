@@ -48,7 +48,7 @@
       transform: scale(1);
     }
     10% {
-      background: transparent;
+      background: white;
       transform: scale(0);
     }
     100% {
