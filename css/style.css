@@ -48,7 +48,7 @@
       transform: scale(1);
     }
     10% {
-      background: white;
+      background: transparent;
       transform: scale(0);
     }
     100% {
@@ -307,7 +307,7 @@ article
     margin-left: 5%;
     margin-top: -2%;
 }
-/*.aime
+.aime
 {
     display: flex;
     justify-content: center;
@@ -316,7 +316,7 @@ article
     font-size:24px ;
     
 }
-.coeur
+/*.coeur
 {
     font-size: 25px;
     color: #f2f2f2;
@@ -345,19 +345,16 @@ article
 .aime:hover .coeur{
     height: 100%;
 }*/
-
-
 .fa-heart {
-    /*position: relative;*/
+    position: relative;
     font-size: 1.5rem;
     background-color: transparent;
+    color: #f2f2f2;
     border: none;
     margin-right: 10px;
     padding: 0;
     margin-bottom: 30px;
-    font-size: 25px;
-    color: #f2f2f2;
-   -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: grey;
   }
 
