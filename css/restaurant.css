@@ -341,7 +341,7 @@ opacity: 0;
 .slide_1 
 {
 animation-name: texte_slide;
-animation-duration: 600ms;
+animation-duration: 1600ms;
 animation-delay: 0ms;
 animation-timing-function: ease-in-out;
 animation-iteration-count: 1;
@@ -349,23 +349,23 @@ animation-iteration-count: 1;
 .slide_2 
 {
   animation-name: texte_slide;
-  animation-duration: 600ms;
-  animation-delay: 200ms;
+  animation-duration: 1600ms;
+  animation-delay: 400ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
 .slide_3 
 {
 animation-name: texte_slide;
-animation-duration: 600ms;
-animation-delay: 600ms;
+animation-duration: 1600ms;
+animation-delay: 800ms;
 animation-timing-function: ease-in-out;
 animation-iteration-count: 1;
 }
 .slide_4 
 {
   animation-name: texte_slide;
-  animation-duration: 600ms;
+  animation-duration: 1600ms;
   animation-delay: 0ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
@@ -373,23 +373,23 @@ animation-iteration-count: 1;
 .slide_5
 {
   animation-name: texte_slide;
-  animation-duration: 600ms;
-  animation-delay: 200ms;
+  animation-duration: 1600ms;
+  animation-delay: 400ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
 .slide_6
 {
   animation-name: texte_slide;
-  animation-duration: 600ms;
-  animation-delay: 600ms;
+  animation-duration: 1600ms;
+  animation-delay: 800ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
 .slide_7
 {
   animation-name: texte_slide;
-  animation-duration: 600ms;
+  animation-duration: 1600ms;
   animation-delay: 0ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
@@ -397,16 +397,16 @@ animation-iteration-count: 1;
 .slide_8
 {
   animation-name: texte_slide;
-  animation-duration: 600ms;
-  animation-delay: 200ms;
+  animation-duration: 1600ms;
+  animation-delay: 400ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
 .slide_9
 {
   animation-name: texte_slide;
-  animation-duration: 600ms;
-  animation-delay: 600ms;
+  animation-duration: 1600ms;
+  animation-delay: 800ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
