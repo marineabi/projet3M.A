@@ -278,7 +278,7 @@ article
     color: #008766;
     font-weight: bold;
     background-color: #99E2D0;
-    margin-top: -85%;
+    margin-top: -86%;
     margin-left: 70%;
     width: 22%;
     height: 4%;
@@ -452,7 +452,8 @@ ul
     line-height: 25px;
 }
 
-/* ---------------------------- Smartphone 2---------------------------- 
+
+/* ---------------------------- Smartphone 2----------------------------*/ 
 @media screen and (min-width: 319px) and (max-width: 499px) 
 {
 
@@ -496,7 +497,8 @@ ul
         width: 30%;
        
 
-}*/
+}
+}
 
 
 /* ---------------------------- Smartphone 2---------------------------- */
