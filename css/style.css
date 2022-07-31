@@ -284,6 +284,9 @@ article
     height: 4%;
     align-items: center;
     justify-content: center;
+    margin-top: -21%;
+        margin-left: 24%;
+        width: 16%;
 }
 .Nouveau_note
 {
@@ -298,6 +301,9 @@ article
     height: 4%;
     align-items: center;
     justify-content: center;
+    margin-top: -21%;
+        margin-left: 24%;
+        width: 16%;
 }
 .aime, .caption 
 {
@@ -320,7 +326,7 @@ article
 }
 
 .fa-heart {
-    position: absolute;
+    position: relative;
     font-size: 1.5rem;
     background-color: transparent;
     color: #f2f2f2;
@@ -446,6 +452,100 @@ ul
     line-height: 25px;
 }
 
+/* ---------------------------- Smartphone 2---------------------------- 
+@media screen and (min-width: 319px) and (max-width: 499px) 
+{
+
+    .aime
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 80%;
+    margin-top: 3%;
+    font-size:24px ;
+    
+}
+
+.Nouveau_palette
+{
+    position: absolute;
+    display: flex;
+    color: #008766;
+    font-weight: bold;
+    background-color: #99E2D0;
+    height: 4%;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30%;
+        margin-left: 60%;
+        width: 30%;
+        
+}
+.Nouveau_note
+{
+    position: absolute;
+    display: flex;
+    color: #008766;
+    font-weight: bold;
+    background-color: #99E2D0;
+    height: 4%;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30%;
+        margin-left: 60%;
+        width: 30%;
+       
+
+}*/
+
+
+/* ---------------------------- Smartphone 2---------------------------- */
+@media screen and (min-width: 500px) and (max-width: 768px) 
+{
+
+    .aime
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 80%;
+    margin-top: 3%;
+    font-size:24px ;
+    
+}
+
+.Nouveau_palette
+{
+    position: absolute;
+    display: flex;
+    color: #008766;
+    font-weight: bold;
+    background-color: #99E2D0;
+    height: 4%;
+    align-items: center;
+    justify-content: center;
+    margin-top: -21%;
+        margin-left: 70%;
+        width: 16%;
+}
+.Nouveau_note
+{
+    position: absolute;
+    display: flex;
+    color: #008766;
+    font-weight: bold;
+    background-color: #99E2D0;
+    height: 4%;
+    align-items: center;
+    justify-content: center;
+    margin-top: -21%;
+        margin-left: 70%;
+        width: 16%;
+}
+
+}
+
+
+
 /* ---------------------------- Tablettes ---------------------------- */
 @media screen and (min-width: 769px) and (max-width: 1024px) 
 {
@@ -503,18 +603,6 @@ ul
     {
         width: 40%;
         margin-top: 2%;
-    }
-    .Nouveau_note 
-    {
-        margin-top: -21%;
-        margin-left: 24%;
-        width: 16%;
-    }
-    .Nouveau_palette 
-    {
-        margin-top: -21%;
-        margin-left: 24%;
-        width: 16%;
     }
     ul
     {
