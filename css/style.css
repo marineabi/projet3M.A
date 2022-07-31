@@ -832,12 +832,6 @@ ul
         font-size: x-large;
         justify-content: space-around;
     }
-    .bloc 
-    {
-    display: flex;
-    align-items: center;
-    width: 102%;
-    }
     footer h3
     {
         margin-left: 0;

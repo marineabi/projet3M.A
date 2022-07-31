@@ -10,7 +10,7 @@ body
     display: flex;
     justify-content: center;
     font-size: small;
-    margin-bottom: -3%;
+    
 }
 
 .fa-arrow-left
@@ -176,12 +176,14 @@ border: none;
 margin-right: 10px;
 padding: 0;
 margin-bottom: 30px;
+margin-top: 5%;
 }
 
 h1{
   font-family: "Shrikhand", Arial;
   font-weight: normal;
   font-size: 1.4em;
+  margin-top: 5%;
 }
 
 /* SECTIONS */
@@ -503,13 +505,25 @@ ul
     margin-left: 2%;
     margin-right: 0%;
   }
-
+  /*.fa-arrow-left
+  {
+    position: absolute;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+  h1{
+    font-family: "Shrikhand", Arial;
+    font-weight: normal;
+    font-size: 1.4em;
+    margin-top: 0,3%;
+  }*/
 
 }
 
 /* ---------------------------- Tablettes ---------------------------- */
 
-@media  screen and (min-width: 768px)
+@media  screen and (min-width: 768px) and (max-width: 991px) 
 {
   main 
   {
@@ -558,9 +572,10 @@ ul
   {
     display: block;
     text-align: center;
-    height: 116px;
     width: 104%;
     margin-top: 32rem;
+    padding: 0;
+    
    }
   
    li a 
@@ -583,10 +598,18 @@ ul
 /* ---------------------------- Ordinateur ---------------------------- */
 
 @media screen and (min-width: 992px) and (max-width: 3000px) { 
+  
+  body
+{
+  margin: 0;
+  padding: 0;
+}
+
   main 
   {
     height: 1400px;
     margin-top: 8rem;
+    
   }
   .all_section 
   {
@@ -602,6 +625,7 @@ ul
   .header_lpdg
   {
     font-size: xx-large;
+    
   }
   header img{
     width: 101%;
@@ -634,7 +658,7 @@ ul
   }
   .card
   {
-    width: 43%;
+    width: 80%;
     display: flex;
     margin: auto;
   }
@@ -690,12 +714,13 @@ ul
 {
   font-size: 25px;
 }
-/*.price
-{
-  margin-left: 10rem;
-}*/
   .menu_1 h2 
   {
   margin: auto;
   }
+  .fas fa-hands-helping{
+    margin-right: 15%;
+
+  }
+
 }
