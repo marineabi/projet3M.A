@@ -582,7 +582,7 @@ ul
 }
 /* ---------------------------- Ordinateur ---------------------------- */
 
-@media screen and (min-width: 992px) { 
+@media screen and (min-width: 992px) and (max-width: 3000px) { 
   main 
   {
     height: 1400px;
@@ -612,10 +612,13 @@ ul
   .ensemble_titrelogo
   {
     font-size: xx-large;
+    margin-top: auto;
   }
   .titre_pagelpdg
   {
     font-size: xx-large;
+
+
   }
   .fa-arrow-left{
     margin-top: 2%;
