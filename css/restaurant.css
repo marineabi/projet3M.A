@@ -474,6 +474,24 @@ ul
 {
     line-height: 25px;
 }
+/* ---------------------------- Smartphone 1----------------------------*/ 
+@media screen and (min-width: 319px) and (max-width: 767px) 
+{
+
+  footer 
+  {
+    position: absolute;
+    background: #353535;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto", sans-serif;
+    width: 90%;
+    margin-top: 74rem;
+    margin-left: -3%;
+  }
+
+}
 
 /* ---------------------------- Tablettes ---------------------------- */
 
