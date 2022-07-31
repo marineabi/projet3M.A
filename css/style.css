@@ -50,7 +50,7 @@
       transform: scale(1);
     }
     10% {
-      background: transparent;
+      background: whitesmoke;
       transform: scale(0);
     }
     100% {
