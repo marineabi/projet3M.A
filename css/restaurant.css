@@ -486,10 +486,24 @@ ul
     display: flex;
     flex-direction: column;
     font-family: "roboto", sans-serif;
-    width: 90%;
+    width: 100%;
     margin-top: 74rem;
-    margin-left: -3%;
+    margin-left: 0%;
   }
+
+  .card{
+    background-color: white;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 5px grey;
+    height: 4em;
+    overflow: hidden;
+    width: 98%;
+    margin-left: 2%;
+    margin-right: 0%;
+  }
+
 
 }
 
@@ -516,9 +530,7 @@ ul
   .aime{
     margin-top: 1%;
   }
-  footer{
-    margin-top: 32rem;
-  }
+
   .menu__button
   {
     padding: 30px 0 90px 0;
@@ -538,12 +550,17 @@ ul
     padding: 1px 45px 1PX 0px;
     margin-left: 3rem;
   }
+  .card{
+    width: 98%;
+    margin-left: 7%;
+  }
   footer 
   {
     display: block;
     text-align: center;
     height: 116px;
     width: 104%;
+    margin-top: 32rem;
    }
   
    li a 
